@@ -1,0 +1,74 @@
+/*header banner*/
+
+.head {
+    width: 100%;
+    position: fixed;
+}
+
+#header-container {
+    margin: 0 0 20px 0;
+}
+
+#topmost-bar {
+    position: absolute;
+    top: 0;
+    background-color: rgb(24, 35, 72);
+    height: 60px;
+}
+
+#main-header {
+    position: absolute;
+    top: 60px;
+    background-color: rgb(34, 51, 102);
+    height: 150px;
+    box-shadow: 2px 7px 2px 1px rgba(0, 0, 0, 0.9);
+}
+
+#header-text {
+    font-size: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*color bars and date*/
+
+#auth-container {
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    position: fixed;
+    top: 220px;
+    background-color: gray;
+}
+
+#color-box-container {
+    margin-left: 60px;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.color-box {
+    position: relative;
+    height: 275px;
+    width: 275px;
+}
+
+#color-box-left {
+    background-color: blue;
+    border-radius: 5% 0 0 5%;
+}
+
+#color-box-center {
+    background-color: green;
+    border-radius: 0%;
+}
+
+#color-box-right {
+    background-color: red;
+    border-radius: 5% 0 0 5%;
+}
