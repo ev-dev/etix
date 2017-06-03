@@ -13,22 +13,22 @@
     position: absolute;
     top: 0;
     background-color: rgb(24, 35, 72);
-    height: 60px;
+    height: 30px;
 }
 
 #main-header {
     position: absolute;
-    top: 60px;
+    top: 30px;
     background-color: rgb(34, 51, 102);
-    height: 150px;
+    height: 100px;
     box-shadow: 2px 7px 2px 1px rgba(0, 0, 0, 0.9);
 }
 
 #header-text {
-    font-size: 55px;
+    font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    font-weight: bold;
+    font-weight: normal;
     text-align: center;
 }
 
