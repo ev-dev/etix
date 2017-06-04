@@ -10,26 +10,38 @@
 }
 
 #topmost-bar {
-    position: absolute;
+    position: fixed;
     top: 0;
     background-color: rgb(24, 35, 72);
     height: 30px;
 }
 
 #main-header {
-    position: absolute;
     top: 30px;
     background-color: rgb(34, 51, 102);
-    height: 100px;
+    height: 80px;
     box-shadow: 2px 7px 2px 1px rgba(0, 0, 0, 0.9);
 }
+
+#header-text-div {
+    position: fixed;
+    width: 100%;
+    margin-left: 43%;
+    margin-top: 15px;
+    /*margin-bottom: 50px;*/
+}
+/*
+#header-margin-maker {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+}*/
 
 #header-text {
     font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     font-weight: normal;
-    text-align: center;
 }
 
 
