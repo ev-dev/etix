@@ -53,7 +53,7 @@
 /* Bootstrap colorboxes */
 
 #color-box-contain {
-    /*width: 100%;*/
+    width: 100%;
     padding-top: 20px;
     /*padding-left: 20px;
     padding-right: 20px;*/
@@ -75,7 +75,7 @@
 
 .colorbox {
     height: 155px;
-    /*width: 33.33%;*/
+    width: 33.333%;
 }
 
 
