@@ -28,14 +28,7 @@
     width: 100%;
     margin-left: 43%;
     margin-top: 15px;
-    /*margin-bottom: 50px;*/
 }
-/*
-#header-margin-maker {
-    position: fixed;
-    width: 100%;
-    height: 40px;
-}*/
 
 #header-text {
     font-size: 35px;
@@ -52,43 +45,42 @@
     height: 400px;
     text-align: center;
     position: fixed;
-    top: 220px;
+    top: 120px;
     background-color: gray;
 }
 
-#color-box-container {
-    margin-left: 60px;
-    margin-right: 40px;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    width: 80%;
+
+/* Bootstrap colorboxes */
+
+#color-box-contain {
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
-.color-box {
-    position: relative;
+#colorbox-left {
+    background-color: darkred;
+    border-radius: 5% 0 0 5%;
+}
+
+#colorbox-center {
+    background-color: darkgreen;
+}
+
+#colorbox-right {
+    background-color: darkblue;
+    border-radius: 0 5% 5% 0;
+}
+
+.colorbox {
     height: 275px;
-    width: 275px;
+    width: 33.333%;
 }
-
-#color-box-left {
-    background-color: blue;
-    border-radius: 5% 0 0 5%;
-}
-
-#color-box-center {
-    background-color: green;
-    border-radius: 0%;
-}
-
-#color-box-right {
-    background-color: red;
-    border-radius: 5% 0 0 5%;
-}
-
-
 
 
 /* Enable scroll past for fullscreen on android */
+
 #full-extended-container {
     height: 4000px;
 }
@@ -106,10 +98,3 @@
     width: 100%;
     height: 100px;
 }*/
-
-
-
-
-
-
-
